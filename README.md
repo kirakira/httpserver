@@ -18,7 +18,7 @@ Usage
 Build
 =====
 
-`make`
+Simply run `make`.
 
 Compiling the source requires linux and gcc.
 php-cgi is not requied to compile, but you may need it to server php pages.
