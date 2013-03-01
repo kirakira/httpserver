@@ -8,9 +8,18 @@ This was a course project of Computer Networks.
 Usage
 =====
 
-httpserver [-p PORT] [-d ROOT_DIR] [-b BACKLOG]
+`httpserver [-p PORT] [-d ROOT\_DIR] [-b BACKLOG]`
 Run a simple HTTP server.
 
 PORT - Listen port. Default 8080.
-ROOT_DIR - Server root directory. Default current working directory.
+ROOT\_DIR - Server root directory. Default current working directory.
 BACKLOG - Maximum outstanding connections. Defualt 5.
+
+
+Build
+=====
+
+`make`
+
+Compiling the source requires linux and gcc.
+php-cgi is not requied to compile, but you may need it to server php pages.
