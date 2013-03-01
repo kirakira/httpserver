@@ -8,12 +8,11 @@ This was a course project of Computer Networks.
 Usage
 =====
 
-`httpserver [-p PORT] [-d ROOT\_DIR] [-b BACKLOG]`
-Run a simple HTTP server.
+`httpserver [-p PORT] [-d ROOT_DIR] [-b BACKLOG]`
 
-PORT - Listen port. Default 8080.
-ROOT\_DIR - Server root directory. Default current working directory.
-BACKLOG - Maximum outstanding connections. Defualt 5.
+*  PORT - Listen port. Default 8080.
+*  ROOT\_DIR - Server root directory. Default current working directory.
+*  BACKLOG - Maximum outstanding connections. Defualt 5.
 
 
 Build
